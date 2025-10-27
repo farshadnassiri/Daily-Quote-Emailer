@@ -4,7 +4,7 @@ import os
 import random
 import smtplib
 
-os.environ["mailpassword"]="qkkp jgzk jbau hflx"
+os.environ["mailpassword"]="qkert kp jgzk qwe hflx"
 os.environ["mail"]="farshadnassiri@gmail.com"
 quotes = [
     "The best way to predict the future is to invent it. – Alan Kay",
@@ -35,5 +35,5 @@ def send_email(recipient_name, recipient_email):
          print(f"Failed to send email to {recipient_name} ({recipient_email}). Error: {e}")
 
 if __name__ == "__main__":
-    
+
         mymail=send_email("farshad","farshadnassiri@gmail.com")
